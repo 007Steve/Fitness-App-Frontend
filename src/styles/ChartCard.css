@@ -1,0 +1,42 @@
+.chartCard {
+  margin: 0rem 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.chartCard__input {
+  width: 8px;
+  height: 100px;
+  max-height: 250px;
+  padding: 0 5px;
+  margin: 0.1rem;
+  border-radius: 50px;
+  background-color: #ab89fc;
+  background-image: linear-gradient(160deg, #ab89fc 0%, #6503e4 100%);
+}
+.chartCard__container {
+  display: flex;
+  align-items: flex-end;
+}
+
+.Steps {
+  background-color: #b9fd69;
+  background-image: linear-gradient(160deg, #b9fd69 0%, #1cbc10 100%);
+}
+
+.Sleep {
+  background-color: #ab89fc;
+  background-image: linear-gradient(160deg, #ab89fc 0%, #6503e4 100%);
+}
+
+.Calories {
+  background-color: #f69e5c;
+  background-image: linear-gradient(160deg, #ff994b 0%, #ff2f00 100%);
+}
+
+.Water {
+  background-color: #559bff;
+  background-image: linear-gradient(160deg, #559bff 0%, #1371ff 100%);
+}
